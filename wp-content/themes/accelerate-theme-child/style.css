@@ -23,3 +23,86 @@
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
+
+#masthead nav ul li {
+  float: left;
+  margin: 0px 40px;
+}
+
+#masthead nav ul {
+margin-bottom: 0px;
+}
+/* Blog post on homepage */
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies Styles */
+article.case-study {
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar{
+float: left;
+width: 314px;
+margin: 0 40px 0 0;
+
+}
+
+aside.case-study-sidebar h5 {
+  color:#aaa;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 10px 0px 12px 0px;
+}
+
+div.case-study-images {
+  float: left;
+  width: 600px;
+}
+div.case-study-images img {
+  margin-bottom:50px;
+  border: solid 1px #dddddd;
+}
+
+ul.homepage-featured-work {
+  list-style-type: none;
+
+}
+
+li.individual-featured-work a {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+li.individual-featured-work {
+  text-align: center;
+  float: left;
+  margin: 0px 6px;
+}
+
+.featured-work h4 {
+  text-align: center;
+}

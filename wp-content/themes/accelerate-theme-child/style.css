@@ -13,7 +13,10 @@
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat center center scroll / cover rgba(0, 0, 0, 0);
+    height: 350px;
+    margin: 0 0 40px;
+    padding: 10px 0 0 0;
 }
 
 #masthead {
@@ -106,4 +109,118 @@ li.individual-featured-work {
 
 .featured-work h4 {
   text-align: center;
+}
+
+/* Ninja forms */
+
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: .9em;
+}
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;
+    clear: initial;
+}
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+}
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+}
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+}
+
+/*About Us styles */
+.about-hero h3 {
+  width: 60%;
+  margin: auto;
+  padding: 75px 0 0 0;
+  line-height: 32px;
+  font-weight: bold;
+}
+
+.about-hero a{
+  color: #45ac9d;
+  font-weight:bold;
+}
+
+.about-us {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.about-us h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'montserrat';
+  font-size: 20px;
+  color: #3b3b3b;
+
+}
+
+.about-us h2 {
+color: #3b3b3b;
+font: 17px 'open sans', Arial, sans-serif;
+margin: 15px 0px;
+}
+
+.services {
+  width: 52%;
+  margin: auto;
+  font-size: 80%;
+
+}
+
+.serviceLabel{
+  color: #3b3b3b;
+  font: 20px 'open sans', Arial, sans-serif;
+  font-weight: bolder;
+  display: block;
+  padding: 20px 0px 10px 0px;
+}
+
+.service2, .service3, .service4, .service5 {
+  margin-top: 20px;
+}
+
+.service1 img, .service3 img, .service5 img {
+  float: left;
+  margin: 20px 30px 10px 5px;
+}
+
+.service2 img, .service4 img, .service6 img {
+  float: right;
+  margin: 20px 5px 10px 30px;
+}
+
+.about-contact {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.about-contact span {
+  color: #3b3b3b;
+  font: 20px 'open sans', Arial, sans-serif;
+  font-weight: bolder;
+  padding: 0px 10px;
+}
+
+.footer-social {
+  text-align: right;
 }

@@ -65,4 +65,5 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-<?php get_footer('about'); ?>
+	
+<?php get_footer(); ?>

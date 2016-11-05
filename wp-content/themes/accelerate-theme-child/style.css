@@ -224,3 +224,27 @@ margin: 15px 0px;
 .footer-social {
   text-align: right;
 }
+
+/*404 Styles */
+.error {
+font-size: 36px;
+font-family: 'Montserrat';
+font-weight: bold;
+color: #45ac9d;
+}
+
+.error2 a {
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+}
+
+.errorFull {
+  margin-top: 80px;
+
+}
+.errorFull img {
+  float: left;
+  margin: 0px 30px;
+}

@@ -36,9 +36,13 @@
 #masthead nav ul {
 margin-bottom: 0px;
 }
+
+
 /* Blog post on homepage */
 .blog-post {
-	width: 50%;
+	width: 45%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 .blog-post h4 {
@@ -60,6 +64,39 @@ margin-bottom: 0px;
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+.blogTwit {
+  width: 50%;
+  margin: auto;
+}
+
+/*twitter widget */
+.twitter {
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+h3.widget-title {
+    margin: 20px 0 5px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #3b3b3b;
+    margin: 36px 0px 12px 0px;
+  }
+
+.twitter li {
+  list-style: none;
+  font: 17px/1.65 'open sans', Arial, sans-serif;
+}
+
+.tweets {
+  padding: 0px;
+  margin-left: 0px;
+}
+.widget {
+  padding: 0px;
 }
 
 /* Case Studies Styles */

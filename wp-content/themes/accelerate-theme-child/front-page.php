@@ -61,18 +61,25 @@ get_header(); ?>
    </div>
   </div>
 	<div class="site-content">
-   <div class="blog-post twitter">
-		 <h4>Recent Tweet</h4>
- <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+  	<div class="blog-post twitter">
+		 <?php $twitter_link=get_field('twitter_link'); ?>
+		 		<h4>Recent Tweet</h4>
+ 				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+ 					<div id="secondary" class="widget-area" role="complementary">
+ 						<?php dynamic_sidebar( 'sidebar-2' ); ?><a class="read-more-link" href="<?php echo $twitter_link; ?>">Follow Us <span>&rsaquo;</span></a>
+				<h4>Subscribe to our Newsletter</h4>
+				<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-3' ); ?>
+					</div>
+					<?php endif; ?>
 
- <div id="secondary" class="widget-area" role="complementary">
+			 	</div>
+ 		</div>
+	</div>
 
- 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-	 	 	       <a class="read-more-link" href="<?php the_permalink(); ?>">Follow Us <span>&rsaquo;</span></a>
+</section>
 </div>
- </div></div>
-
-</section></div>
 
 
 <?php endif; ?>

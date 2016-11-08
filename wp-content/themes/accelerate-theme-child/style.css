@@ -99,6 +99,9 @@ h3.widget-title {
   padding: 0px;
 }
 
+.twitter ul {
+  margin-bottom: 0px;
+}
 /* Case Studies Styles */
 article.case-study {
   margin: 40px 0 0;
@@ -285,3 +288,31 @@ color: #45ac9d;
   float: left;
   margin: 0px 30px;
 }
+
+/* Mailchimp Styles */
+#mcsubmit input {
+border: none;
+font-size: 18px;
+font-family: 'Montserrat';
+font-weight: bold;
+color: #45ac9d;
+text-transform: uppercase;
+padding:0px;
+  margin: 0px;
+}
+
+.mc4wp-form-fields p {
+margin: 0px;
+}
+
+#mcemail input{
+  height: 20px;
+  font-size: 18px;
+}
+
+.twitter h4 {
+  margin-bottom: -30px;
+  padding: 0px;
+}
+
+.twitter>read-more-link

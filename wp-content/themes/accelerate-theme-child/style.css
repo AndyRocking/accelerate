@@ -13,7 +13,7 @@
 @import url("../accelerate-theme/style.css");
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat center center scroll / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 350px;
     margin: 0 0 40px;
     padding: 10px 0 0 0;
